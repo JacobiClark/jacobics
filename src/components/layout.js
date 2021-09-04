@@ -42,7 +42,6 @@ const Layout = ({ children }) => {
           <>
             <Header />
             <main id="main-content">{children}</main>
-            <Footer />
           </>
         ) : (
           <SplashScreen />

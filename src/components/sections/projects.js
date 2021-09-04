@@ -185,7 +185,7 @@ const StyledProject = styled(motion.div)`
   .screenshot {
     width: 100%;
     max-width: 25rem;
-    height: 15rem;
+    height: 17rem;
     border-radius: ${({ theme }) => theme.borderRadius};
     box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.16);
     transition: all 0.3s ease-out;
@@ -359,11 +359,7 @@ const Projects = ({ content }) => {
           target="_blank"
           rel="nofollow noopener noreferrer"
           aria-label="External Link"
-        >
-          <Button type="button" textAlign="center" center>
-            {sectionDetails.frontmatter.buttonText}
-          </Button>
-        </motion.a>
+        ></motion.a>
       )}
     </StyledSection>
   )
