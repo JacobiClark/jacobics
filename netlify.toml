@@ -3,7 +3,6 @@
   publish = "public"
 
 [build.environment]
-  CYPRESS_CACHE_FOLDER = "./node_modules/CypressBinary"
   TERM = "xterm"
 
 [[plugins]]
